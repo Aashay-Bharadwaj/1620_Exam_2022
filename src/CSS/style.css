@@ -70,7 +70,16 @@ main {
 }
 nav {
   display: flex;
-  text-align: left ;
+    flex-direction: row;
+    justify-content: right;
+}
+nav ul li{
+  list-style: none;
+  display: flex;
+  float: left;
+  padding: 5px;
+  justify-content: space-between;
+  padding-top: 0px;
 }
 
 #individual_contact {
@@ -132,9 +141,11 @@ nav {
 }
 
 footer {
-  height: 5rem;
-  display: flex;
-  justify-content: center;
+  width: 100%;
+    position: absolute;
+    bottom: 0;
+    z-index: 1;
+    text-align: center;
 }
 
 footer p {

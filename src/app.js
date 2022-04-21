@@ -105,15 +105,8 @@ function displaysingleContact(contactsList){
     createDiv.appendChild(createImg).setAttribute('src', './img/togusa.png')
     createDiv.appendChild(createP).setAttribute('class', '0')
     createP.innerText = contactsList[0].name
+}
 
-    
-    
- 
-  // createImg[0].setAttribute('src', './img/togusa.png')
-  // createImg[1].setAttribute('src', './img/tachikoma.png')
-  // createImg[2].setAttribute('src', './img/saito.png')
-  // createImg[3].setAttribute('src', './img/motoko.png')
-  // createImg[4].setAttribute('src', './img/ishikawa.png')
-  // createImg[5].setAttribute('src', './img/batou.png')
-  // createImg[6].setAttribute('src', './img/aramaki.png')
+document.getElementById("0").onclick = function loadsingleCard(){
+  
 }
