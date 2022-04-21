@@ -68,6 +68,10 @@ header a:hover {
 main {
 
 }
+nav {
+  display: flex;
+  text-align: left ;
+}
 
 #individual_contact {
   display: flex;
